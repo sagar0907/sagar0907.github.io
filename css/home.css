@@ -1,0 +1,232 @@
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v13/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v13/2HG_tEPiQ4Z6795cGfdivJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v13/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    background-color: #fafafa;
+    font-size: 16px;
+    line-height: 1.4;
+    min-height: 100%;
+    padding-bottom: 52px;
+}
+
+a {
+    color: #223047;
+}
+ul {
+    margin: 0;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.header-wrapper {
+    padding: 20px;
+    background-color: #fff;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.left-header {
+    float: left;
+    width: 50%;
+}
+.right-header {
+    float: left;
+    width: 50%;
+}
+.header-image {
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.header-image img {
+    height: 100%;
+}
+.header-name {
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 5px;
+}
+.header-profile {
+    line-height: 30px;
+}
+.site-parts {
+    float:right;
+    display: table;
+    clear: both;
+}
+.one-part-toggle {
+    float:left;
+    width: 80px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.part-toggle {
+    cursor: pointer;
+}
+.site-part-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 0 10px;
+    background-color: #eee;
+}
+.site-part-icon i {
+    height: 30px;
+    width: 50px;
+    margin: 15px 0;
+    font-size: 30px;
+}
+.site-part-name {
+    line-height: 20px;
+}
+
+.home-body {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.one-section {
+    width: 100%;
+    display: block;
+}
+.part-name {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+.part-sections {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.page-toggle {
+    cursor: pointer;
+}
+.section-header {
+    font-size: 26px;
+    border-bottom: 1px solid #555;
+    margin: 10px 0;
+}
+.contact-details {
+    text-align: center;
+}
+.contact-icon {
+    font-size: 50px;
+}
+
+.resume-part {
+    width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.sub-section-top {
+    width: 100%;
+    display: table;
+    clear: both;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+.sub-section-top a {
+    color: #777;
+    text-decoration: none;
+}
+.sub-section-left {
+    float: left;
+    width: 50%;
+}
+.sub-section-right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.sub-section-head {
+    font-weight: bold;
+    font-size: 17px;
+}
+.sub-section-desc {
+    color: #777;
+}
+.sub-section-details {
+    margin-bottom: 10px;
+}
+
+.footer i {
+    font-size: 30px;
+}
+.footer a {
+    color: #555;
+    margin: 0 20px;
+}
