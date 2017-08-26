@@ -1,5 +1,4 @@
-//var base_url = window.location.origin;
-var base_url = 'http://localhost:63342/website';
+var base_url = window.location.origin;
 function goToHome() {
     window.location = base_url;
 }
