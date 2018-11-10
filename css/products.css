@@ -185,6 +185,15 @@ body {
     color: #fff;
     cursor: pointer;
 }
+.display-action-button::after {
+    background-image: url(../images/right_arrow.png);
+    display: inline-block;
+    height: 15px;
+    width: 17px;
+    background-size: 17px 17px;
+    content: "";
+    margin-left: 10px;
+}
 .display-action-button:hover {
     background-color: #005cb2;
 }
