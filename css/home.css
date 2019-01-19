@@ -25,7 +25,7 @@
     display: flex;
 }
 
-.header-items {
+a.header-items {
     margin-left: 20px;
     color: #202640;
 }
