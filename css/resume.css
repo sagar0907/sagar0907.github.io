@@ -1,0 +1,123 @@
+.header {
+    height: 120px;
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.header-logo-box {
+    float: left;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.header-logo-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-items-list {
+    float: right;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.header-items {
+    margin-left: 20px;
+    color: #202640;
+}
+
+.header-items.active {
+    color: #de0f66;
+}
+
+
+
+
+.page-toggle {
+    cursor: pointer;
+}
+.one-section {
+    width: 100%;
+    display: block;
+}
+.part-name {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+.part-sections {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.section-header {
+    font-size: 26px;
+    border-bottom: 1px solid #555;
+    margin: 10px 0;
+}
+
+.resume-part {
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #555;
+}
+.resume-part a {
+    color: #223047;
+    text-decoration: underline;
+}
+.sub-section-top {
+    width: 100%;
+    display: table;
+    clear: both;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+.sub-section-top a {
+    color: #555;
+    text-decoration: none;
+}
+.sub-section-left {
+    float: left;
+    width: 50%;
+}
+.sub-section-right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.sub-section-head {
+    font-weight: bold;
+    font-size: 17px;
+}
+.sub-section-desc {
+    color: #777;
+}
+.sub-section-details {
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 2em;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 2;
+}
+
+.connect-list {
+    margin-top: 20px;
+}
+
+.connect-list i {
+    font-size: 30px;
+}
+
+.connect-list a {
+    color: #555;
+    margin: 0 20px;
+}

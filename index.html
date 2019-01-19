@@ -3,63 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <title>Sagar Jain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./images/0907.png" sizes="32x32">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/util.css">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
-    <script src="./js/jquery.js"></script>
-    <script src="./js/home.js"></script>
 </head>
 <body>
-<div class="header-wrapper">
-    <div class="header">
-        <div class="left-header">
-            <div class="header-image">
-                <img src="images/image-bnw.jpg">
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo-box">
+                <a href="/"><img src="images/0907.png"></a>
             </div>
-            <div class="header-name">Sagar Jain</div>
-            <div class="header-profile">Software Engineer</div>
-        </div>
-        <div class="right-header">
-            <div class="site-parts">
-                <div class="one-part-toggle" id="home-toggle">
-                    <div class="site-part-icon"><i class="fa fa-home" aria-hidden="true"></i></div>
-                    <div class="site-part-name">Home</div>
-                </div>
-                <div class="one-part-toggle" id="resume-toggle">
-                    <div class="site-part-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
-                    <div class="site-part-name">Resume</div>
-                </div>
-                <div class="one-part-toggle" id="contact-toggle">
-                    <div class="site-part-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                    <div class="site-part-name">Contact</div>
-                </div>
+            <div class="header-items-list">
+                <a href="/" class="one-part-toggle header-items active" id="home-toggle">Home</a>
+                <a href="/resume.html" class="one-part-toggle header-items" id="resume-toggle">Resume</a>
+                <a href="/products.html" class="one-part-toggle header-items" id="products-toggle">Products</a>
             </div>
         </div>
     </div>
+</header>
+<div class="sections">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 flex">
+                    <div class="content-holder">
+                        <div class="content-wrapper">
+                            <div class="intro-main-text">
+                                I'm Sagar, a Software Engineer at <a href="https://www.uber.com"
+                                                                     target="_blank">Uber</a>. I enjoy
+                                creating products that solve problems and make life easier.
+                            </div>
+                            <div class="intro-sub-text">
+                                Previously at <a href="https://www.media.net" target="_blank">media.net</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-4">
+                    <div class="profile_image_box">
+                        <img src="images/sagar.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row-with-column">
+                <div class="col-lg-6 column">
+                    <a class="product-box"
+                       href="https://chrome.google.com/webstore/detail/kjkmhkicphnkbfgafbigdklljcmogmpg"
+                       target="_blank">
+                        <div class="product-tag">
+                            Entertainment
+                        </div>
+                        <div class="product-header">
+                            Bringe
+                        </div>
+                        <div class="product_image">
+                            <img src="images/bringe_half_mockup.png"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 column">
+                    <a class="product-box"
+                       href="https://chrome.google.com/webstore/detail/igjmkejolekkpjnaeknjgaghhlhhekle"
+                       target="_blank">
+                        <div class="product-tag">
+                            Productivity
+                        </div>
+                        <div class="product-header">
+                            Quick Notes
+                        </div>
+                        <div class="product_image">
+                            <img src="images/quicknotes-half-mockup.png"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="view-all-text"><a href="/products.html">View All Products <i class="fa fa-long-arrow-right"
+                                                                                     aria-hidden="true"></i></a></div>
+        </div>
+    </section>
+    <section class="section-divider">
+    </section>
 </div>
-<div class="main-body">
-    <div class="part-name">HOME</div>
-    <div class="part-sections">
-        <p><span class="part-toggle" id="home-part">Home</span> |
-            <span class="part-toggle" id="resume-part">Resume</span> |
-            <span class="part-toggle" id="contact-part">Contact</span></p>
-    </div>
-    <div class="home-body">
-        <div class="one-section">
-            <div class="section-header">
-                About Me
-            </div>
-            <div class="section-details">
-                <p>Software Engineer at <a href="https://www.uber.com/" target="_blank">Uber</a>.</p>
-                <p>I like to build problem solving products.</p>
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="footer">
-    <a href="https://www.linkedin.com/in/sagar0907" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-    <a href="mailto:sagarjain0907@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sagar0907" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-    <a href="https://github.com/sagar0907" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+    <div>Let's Connect</div>
+    <div>
+        <a href="mailto:sagarjain0907@gmail.com">sagarjain0907@gmail.com</a>
+    </div>
+    <div class="connect-list">
+        <a href="https://www.linkedin.com/in/sagar0907" target="_blank"><i class="fa fa-linkedin-square"
+                                                                           aria-hidden="true"></i></a>
+        <a href="https://github.com/sagar0907" target="_blank"><i class="fa fa-github-square"
+                                                                  aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UC7-DpV2TRfo3twXC7hZAsug" target="_blank"><i class="fa fa-youtube-play"
+                                                                                              aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/sagar0907" target="_blank"><i class="fa fa-facebook-square"
+                                                                        aria-hidden="true"></i></a>
+        <a href="https://twitter.com/SagarJain0907" target="_blank"><i class="fa fa-twitter-square"
+                                                                       aria-hidden="true"></i></a>
+    </div>
 </div>
 </body>
 </html>
