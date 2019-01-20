@@ -30,6 +30,11 @@ a.header-items {
     color: #202640;
 }
 
+a.header-items:hover {
+    margin-left: 20px;
+    color: #de0f66;
+}
+
 .header-items.active {
     color: #de0f66;
 }

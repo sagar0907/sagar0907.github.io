@@ -13,7 +13,21 @@
     <script src="./js/products.js"></script>
 </head>
 <body>
-<div class="header">
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo-box">
+                <a href="/"><img src="images/0907.png"></a>
+            </div>
+            <div class="header-items-list">
+                <a href="/" class="one-part-toggle header-items" id="home-toggle">Home</a>
+                <a href="/resume.html" class="one-part-toggle header-items" id="resume-toggle">Resume</a>
+                <a href="/products.html" class="one-part-toggle header-items active" id="products-toggle">Products</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="big-header">
     <div id="intro-box">
         <canvas id="canvas"></canvas>
         <div id="intro-text">Here are some products that you might like.</div>
@@ -23,13 +37,13 @@
 <div class="display-slab wb">
     <div class="container">
         <div class="row row-with-column">
-            <div class="col-lg-6 column box-part">
+            <div class="col-lg-6 column box-part box-part-left">
                 <div class="display-video">
                     <iframe src="https://www.youtube.com/embed/pv6IYCnXYQ8?rel=0&modestbranding=1" frameborder="0"
                             allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-lg-6 column box-part">
+            <div class="col-lg-6 column box-part box-part-right">
                 <div class="display-text text-left">
                     <div class="display-text-box">
                         <div class="display-text-header">Watch 'em all</div>
@@ -46,12 +60,12 @@
 <div class="display-slab gb">
     <div class="container">
         <div class="row row-with-column-reverse">
-            <div class="col-lg-6 column box-part">
+            <div class="col-lg-6 column box-part box-part-right">
                 <div class="display-img">
                     <img src="images/bringe_mockup.png">
                 </div>
             </div>
-            <div class="col-lg-6 column box-part">
+            <div class="col-lg-6 column box-part box-part-left">
                 <div class="display-text text-right">
                     <div class="display-text-box">
                         <div class="display-text-header">Movies. TV Shows. Bringe.</div>
@@ -69,12 +83,12 @@
 <div class="display-slab wb">
     <div class="container">
         <div class="row row-with-column">
-            <div class="col-lg-6 column box-part">
+            <div class="col-lg-6 column box-part box-part-left">
                 <div class="display-img">
                     <img src="images/quick_notes.png">
                 </div>
             </div>
-            <div class="col-lg-6 column box-part">
+            <div class="col-lg-6 column box-part box-part-right">
                 <div class="display-text text-left">
                     <div class="display-text-box">
                         <div class="display-text-header">Notes. Make Them Quick.</div>
