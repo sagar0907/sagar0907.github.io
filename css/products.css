@@ -240,5 +240,11 @@ a.header-items:hover {
 
 .connect-list a {
     color: #555;
-    margin: 0 20px;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 980px) {
+    .connect-list a {
+        margin: 0 20px;
+    }
 }

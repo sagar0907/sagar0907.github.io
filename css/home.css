@@ -58,23 +58,36 @@ a.header-items:hover {
 }
 
 .profile_image_box {
-    width: 100%;
-    margin-top: 2em;
+    margin: 4em 2em 2em 2em;
+    width: calc(100% - 4em);
+    padding-top: calc(100% - 4em);
+    background-size: cover;
+    background-image: url(../images/sagar.png);
+    border-radius: 50%;
 }
 
 .profile_image_box img {
     width: 100%;
-    border-radius: 4px;
-    box-shadow: -8px -8px 0 0 #202640;
+    margin: 20px;
+    border-radius: 50%;
 }
 
 @media screen and (min-width: 980px) {
     .intro-main-text {
         font-size: 2.75em;
     }
+
     .intro-sub-text {
         font-size: 1.4em;
         margin-top: 0;
+    }
+
+    .profile_image_box {
+        width: 100%;
+        margin: 0;
+        padding-top: 100%;
+        border-radius: 4px;
+        box-shadow: -8px -8px 0 0 #202640;
     }
 }
 
@@ -107,11 +120,8 @@ a.header-items:hover {
 
 .product_image {
     width: 100%;
-}
-
-.product_image img {
-    width: 100%;
-    display: block;
+    padding-top: calc(1650/2700 * 100%);
+    background-size: cover;
 }
 
 .view-all-text {
@@ -136,5 +146,11 @@ a.header-items:hover {
 
 .connect-list a {
     color: #555;
-    margin: 0 20px;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 980px) {
+    .connect-list a {
+        margin: 0 20px;
+    }
 }
