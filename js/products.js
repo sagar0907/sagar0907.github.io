@@ -1,3 +1,5 @@
+const EXTRA_SCROLL_TO_ANIMATE = 120;
+
 function initClickHandlers() {
     $('.down-arrow').click(function () {
         $([document.documentElement, document.body]).animate({
@@ -12,7 +14,7 @@ function initScrollHandlers() {
         let scrollTop = $(window).scrollTop();
         for (let i = 0; i < slabs.length; i++) {
             let slab = $(slabs[i]);
-            if (scrollTop > slab.offset().top - $(window).height()) {
+            if (scrollTop - EXTRA_SCROLL_TO_ANIMATE > slab.offset().top - $(window).height()) {
                 let leftPart = slab.find(".box-part-left");
                 let rightPart = slab.find(".box-part-right");
                 leftPart.css("right", "0");
